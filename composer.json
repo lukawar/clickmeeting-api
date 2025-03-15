@@ -1,0 +1,33 @@
+{
+    "name": "lukawar/clickmeeting-api",
+    "description": "api for clickmeeting",
+    "type": "library",
+    "keywords": ["laravel", "clickmeeting", "api"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lukawar\\ClickmeetingApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "lukawar",
+            "email": "lwargula@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "lukawar\\ClickmeetingApi\\ClickmeetingApiServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10"
+    },
+    "minimum-stability": "stable"
+}
